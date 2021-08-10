@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@drawable/ic_login_hero">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+            android:onClick="nextClick2"
+            style="@style/loginButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:text="Next Window"
+            app:initialCornerAngle="27dp"
+            app:spinning_bar_color="#FFF"
+            app:spinning_bar_padding="6dp"
+            app:spinning_bar_width="4dp"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+</LinearLayout>
